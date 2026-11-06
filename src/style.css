@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -279,7 +279,7 @@ code {
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
@@ -293,4 +293,16 @@ code {
     right: 0;
     border-right-color: var(--border);
   }
+}
+.status-card {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+}
+
+#api-status {
+  color: #15803d;
+  font-weight: bold;
 }
