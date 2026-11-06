@@ -20,7 +20,7 @@ Projeto desenvolvido para monitorar a comunicação entre uma aplicação fronte
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+https://github.com/Pedro-Sotelle26/projeto-ong.git
 ```
 
 ## API
